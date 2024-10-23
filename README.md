@@ -31,3 +31,7 @@ GET http://localhost:3000/comms/your-next-delivery/567e7bb1-5f69-4b5d-a82f-7edec
 ## Testing
 
 To run the unit tests
+
+```bash
+yarn test
+```
