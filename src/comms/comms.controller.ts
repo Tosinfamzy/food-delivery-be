@@ -1,6 +1,8 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { CommsService } from './comms.service';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('comms')
 @Controller('comms')
 export class CommsController {
   constructor(private readonly commsService: CommsService) {}
