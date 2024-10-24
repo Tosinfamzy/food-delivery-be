@@ -2,7 +2,7 @@
 
 ## Setup
 
-For your convience the api is hosted at ... but to run and setup locally
+For your convience the api is hosted [here](https://food-delivery-be-np84.onrender.com/api) but to run and setup locally,
 
 ```bash
 yarn install

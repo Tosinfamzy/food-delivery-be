@@ -23,7 +23,7 @@ export class CommsService {
     F: 71.25,
   };
 
-  nextDelivery(userId: string): NextDeliveryResponse {
+  public nextDelivery(userId: string): NextDeliveryResponse {
     if (!this.users) {
       throw new Error('No users found');
     }
