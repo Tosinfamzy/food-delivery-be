@@ -35,3 +35,11 @@ To run the unit tests
 ```bash
 yarn test
 ```
+
+## Improvements
+
+- A more persistent storage in ideally a relational database like postgres utilising typeORM
+- Add logging for every request
+- Implement JWT authentication
+- Make cat image dynamic: potentially storing avata/profile images for a user in s3
+- More exhaustive tests eg for controllers and user service
