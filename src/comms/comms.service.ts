@@ -66,4 +66,8 @@ export class CommsService {
       );
     }, 0);
   }
+
+  public getAllUsers() {
+    return this.users;
+  }
 }

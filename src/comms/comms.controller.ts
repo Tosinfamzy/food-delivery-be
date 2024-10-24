@@ -9,4 +9,8 @@ export class CommsController {
   nextDelivery(@Param('uuid') userId: string) {
     return this.commsService.nextDelivery(userId);
   }
+  @Get()
+  allUsers() {
+    return this.commsService.getAllUsers();
+  }
 }
